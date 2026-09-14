@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+</head>
+<body>
+    <a href="">Main</a>
+    <a href="">Make an Order</a>
+    <a href="">Contact Us</a>
+    <h1>Black Goose Bistro | Pizza-on-Demand</h1>
+    <p>Our 12 wood-fired pizzas are available for delivery, build your custom pizza and we'll deliver it within an hour</p>
+    <form>
+    <fieldset>
+        <legend>Your Information</legend>
+        <table>
+            <tr>
+                <td><label for="name">Name:</label></td>
+                <td><input type="text" name="name" id="name"></td>
+            </tr>
+            <tr>
+                <td><label for="address">Address:</label></td>
+                <td><input type="text" name="address" id="address"></td>                
+            </tr>
+            <tr>
+                <td><label for="phone">Telephone Number:</label></td>
+                <td><input type="tel" name="phone" id="phone"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" name="email" id="email"></td>
+            </tr>
+            <tr>
+                <td colspan="2">Delivery Instruction:</td>
+            </tr>
+            <tr>
+                <td colspan="2"><textarea id="delivery" maxlength="400" placeholder="No more than 400 character long"></textarea></td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <h2>Design Your Dream Pizza:</h2>
+    <fieldset>
+        <legend>Pizza specs</legend>
+        <fieldset>
+            <legend>Crust (Choose one):</legend>
+                <table>
+                    <tr>
+                        <td><input type="radio" name="crust" id="classic"></td>
+                        <td><label for="classic">Classic White</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="crust" id="Multigrain"></td>
+                        <td><label for="Multigrain">Multigrain</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="crust" id="stuffed"></td>
+                        <td><label for="stuffed">Stuffed-crust</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="crust" id="glutenFree"></td>
+                        <td><label for="glutenFree">Gluten-free</label></td>
+                    </tr>
+                </table>
+        </fieldset>
+        <fieldset>
+            <legend>Toppings (Choose as many as you want):</legend>
+            <table>
+                <tr>
+                    <td><input type="checkbox" name="toppings" id="red"></td>
+                    <td><label for="red">Red Sauce</label></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="toppings" id="white"></td>
+                    <td><label for="white">White Sauce</label></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="toppings" id="mozza"></td>
+                    <td><label for="mozza">Mozzarella Cheese</label></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="toppings" id="pep"></td>
+                    <td><label for="pep">Pepperoni</label></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="toppings" id="mushrooms"></td>
+                    <td><label for="mushrooms">Mushrooms</label></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="toppings" id="peppers"></td>
+                    <td><label for="peppers">Peppers</label></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="toppings" id="anchovies"></td>
+                    <td><label for="anchovies">Anchovies</label></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Number</legend>
+            <label for="num">How many pizzas:</label>
+            <input type="number" name="num" id="num">
+        </fieldset>
+    </fieldset>
+    <br>
+
+    <input type="submit" value="Bring me a pizza!">
+    <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
