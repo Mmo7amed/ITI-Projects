@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My Portofolio">
+    <link rel="shortcut icon" href="./assets/images/icons8-favicon-48.png" type="image/png">
+    <title>Task 3</title>
+</head>
+<body>
+    <header>
+        <div align="center">
+            <h2>Mohamed Ahmed Ezzat</h2>
+        </div>
+        <hr>
+        <nav>
+            <div align="center">
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="#hero">Hero</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="#skills">Skills</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="#courses">Courses</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="#gallery">Gallery</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="#contact">Contact</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="#faq">FAQ</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            </div>
+        </nav>
+    </header>
+
+    <main>
+            <section id="hero">
+                <h1><em>Welcome to My Portofolio</em></h1>
+                <img src="assets/images/image.jpg">
+                <p>I am a <strong>Computer Science</strong> student majoring in <strong>Software Engineering.</strong></p>
+                <p>I am currently practicing and improving my skills through the <strong>ITI Training Program</strong>.</p>
+            </section>
+            <br><hr><hr>
+            <section id="skills">
+                <h2><em>My Skills:</em></h2>
+                <ul>
+                    <li>
+                        Programming Languages
+                        <ol>
+                            <li><em>C++</em></li>
+                            <li><em>C#</em></li>
+                            <li><em>Python</em></li>
+                            <li><mark>JavaScript</mark></li>
+                        </ol>
+                    </li>
+                    <li>
+                        Frameworks & libraries
+                        <ol>
+                            <li>Node.js & express</li>
+                            <li>ASP.net Razor pages</li>
+                        </ol>
+                    </li>
+                    <li>
+                        Tools
+                        <ol>
+                            <li><mark>Git & Github</mark></li>
+                            <li>PostgreSQL</li>
+                            <li>Linux</li>
+                        </ol>
+                    </li>
+                    <li>
+                        Other
+                        <ol>
+                            <li><mark>HTML</mark></li>
+                            <li><mark>CSS</mark></li>
+                            <li>jQuery</li>
+                        </ol>
+                    </li>
+                </ul>
+            </section>
+            <br><hr><hr>
+            <section id="courses">
+                <h2><em>My Courses:</em></h2>
+                <table align="center" width="600" height="200" border="4">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Duration</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody align="center">
+                        <tr>
+                            <td>HTML</td>
+                            <td>1 Week</td>
+                            <td>Advanced</td>
+                        </tr>
+                        <tr>
+                            <td>CSS</td>
+                            <td>1 Week</td>
+                            <td>Good</td>
+                        </tr>
+                        <tr>
+                            <td>JavaScript</td>
+                            <td>1 Week</td>
+                            <td>Intermediate</td>
+                        </tr>
+                        <tr>
+                            <td>React</td>
+                            <td>2 Week</td>
+                            <td>Beginner</td>
+                        </tr>
+                    </tbody>
+                    <tfoot align="center">
+                        <tr>
+                            <td colspan="2" rowspan="2">Student Status</td>
+                            <td>Good</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+            <br><hr><hr>
+
+            <section id="gallery">
+            <h2><em>Gallery:</em></h2>
+            <figure>
+                <img src="./assets/images/dream_car.jpg" alt="A car" width="300">
+                <figcaption>This is my dream car <em>BMW M4</em>.</figcaption>
+            </figure>
+            <br><br>
+                        <figure>
+                <img src="./assets/images/fav_game.jpg" alt="Video Game" width="300">
+                <figcaption>This is my current fav game.</figcaption>
+            </figure>
+            <br><br>
+                        <figure>
+                <img src="./assets/images/show_charachter.jpg" alt="Saul goodman" width="300">
+                <figcaption>This is my fav TV Show character</figcaption>
+            </figure>
+            </section>
+            <br><hr><hr>
+            <section id="contact">
+                <h2><em>Contact Me:</em></h2>
+                <form>
+                    <fieldset>
+                        <legend>Put Your Information Here:</legend>
+                        <table>
+                            <tr>
+                                <td><label for="name">Name:</label></td>
+                                <td><input type="text" name="name" id="name" placeholder="Enter name..." required></td>
+                            </tr>
+                            <tr>
+                                <td><label for="email">Email:</label></td>
+                                <td><input type="email" name="email" id="email" placeholder="example@gmail.com" required></td>
+                            </tr>
+                            <tr>
+                                <td><label for="tel">Phone Number:</label></td>
+                                <td><input type="tel" name="tel" id="tel"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="date">Birth Date:</label></td>
+                                <td><input type="date" name="date" id="date"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><label for="message">Enter message:</label></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><textarea id="message" maxlength="400" placeholder="Message no longer than 400..."></textarea></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <label for="select">Choose Topic:</label>
+
+                                    <select id="select">
+                                        <option>Select</option>
+                                        <optgroup label="Lifestyle">
+                                            <option value="3">Fitness</option>
+                                            <option value="4">Sports</option>
+                                        </optgroup>
+                                        <optgroup label="Developments">
+                                            <option value="1">WebDev</option>
+                                            <option value="2">AppDev</option>
+                                        </optgroup>
+                                        <option value="5">Other</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><br>Whats your prefered Contact method:</td>
+                            </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <input type="radio" name="meth" id="meth_ph">
+                                        <label for="meth_ph">Phone Number.</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <input type="radio" name="meth" id="meth_em">
+                                        <label for="meth_em">Email.</label>
+                                    </td>
+                                </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <br><label for="check">Send a copy of this message to my email address.</label>
+                                    <input type="checkbox" name="check" id="check">
+                                </td>
+                            </tr>
+                        </table>
+                        <br><br>
+                        <button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
+                    </fieldset>
+                </form>
+            </section>
+            <br><hr><hr>
+            
+            <section id="faq">
+                <h2><em>Frequently Asked Questions:</em></h2>
+
+                <details>
+                    <summary><b>What did you use to be able to make this website?</b></summary>
+                    <p>I built this portfolio using HTML5,
+                         without relying on any CSS for styling or JavaScript for interactivity.
+                          I structured the page using semantic tags to make sure it is clean and organized.
+                    </p>
+                </details>
+                <details>
+                    <summary><b>How can I learn to build websites like this?</b></summary>
+                    <p>The best way to build a strong foundation in web development is to join the <abbr title="Information Technology Institute">ITI</abbr>
+                         training program. It is a highly intensive, hands on track that takes you step by step through everything from pure HTML</p>
+                </details>
+            </section>
+            <br><hr><hr>
+            <footer>
+                <h2>Connect With Me</h2>
+                <address>
+                    Location: Mokattam, Cairo, Egypt<br>
+                    Email: mohamed.ezzat.sw@gmail.com
+                </address>
+                <br>
+                <a href="https://github.com/Mmo7amed" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/mohamed-ezzat-77ba69409/" target="_blank">LinkedIn</a>
+                <br><br>
+                <p>&copy; 2026 Mohamed Ahmed Ezzat.</p>
+            </footer>
+    </main>
+</body>
+</html>
