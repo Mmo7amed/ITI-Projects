@@ -1,0 +1,168 @@
+/* :root{
+    --main-color: yellow;
+    --secondary-color: blue;
+}
+
+p{
+    font-size: 18px;
+    color: var(--secondary-color);
+}
+
+h1{
+    background-color: var(--main-color);
+    text-align: center;
+} */
+
+/* div{
+    color: whitesmoke;
+    background-color: teal;
+    width: 80%;
+    height: 20vh;
+    overflow: hidden;
+    overflow: scroll;
+} */
+/* 
+p, h1{
+    color:whitesmoke
+}
+
+div{
+    background-image: url(../assets/images/computer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+/* Root and Universal */
+:root{
+    --primary-color: #010736;
+    --secondary-color: #0D1C42;
+    --third-color: #22396F;
+    --fourth-color: #FCF1D0;
+}
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: var(--fourth-color);
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #010736;
+}
+
+/* Header */
+.header{
+    background-color:#010736;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border-bottom: 3px solid var(--fourth-color);
+
+}
+
+.header > h2{
+    color: var(--fourth-color);
+    font-size: 2rem;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    font-size: 2em;
+}
+
+nav ul li > a{
+    color: var(--fourth-color);
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav ul li > a:hover{
+    color: var(--third-color);
+    cursor: pointer;
+}
+
+/* Main */
+main{
+    background-color: var(--secondary-color);
+    width: 100%;
+    height: 100%;
+}
+
+main .about-pic{
+    background-image: url(../assets/images/tech.webp);
+    width: 100%;
+    min-height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-attachment: scroll;
+    border-bottom: 3px solid var(--fourth-color);
+
+}
+
+.about-pic p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main .skills{
+    background-color: var(--secondary-color);
+    width: 100vw;
+    height: 100vh;
+    border-bottom: 3px solid var(--fourth-color);
+}
+
+main #skills-table{
+    text-align: center;
+    width: 100%;
+    height: 70%;
+    background-color: var(--third-color);
+    border: 3px solid var(--fourth-color);
+    border-radius: 10px;
+    cursor:crosshair
+}
+
+main .contact{
+    background-color: var(--secondary-color) !important; /* this important is used to avoid the next line from running */
+    background-color: var(--fourth-color); /* This line overwrites the line above it */
+    border-bottom: 3px solid var(--fourth-color);
+}
+
+.contact .row input,
+.contact .row .textarea{
+    color:black;
+    border: 3px solid var(--primary-color);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.contact .row label{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.btn{
+    background-color: var(--primary-color);
+    color: var(--fourth-color);
+    width: 100px;
+    margin-top: 10px;
+    height: 30px;
+}
+
+.btn:hover{
+    background-color: var(--third-color);
+    cursor: pointer;
+}
+
+footer{
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+.footer-links a{
+    text-decoration: none;
+}
+
+.footer-links a:hover{
+    text-decoration: underline;
+}
