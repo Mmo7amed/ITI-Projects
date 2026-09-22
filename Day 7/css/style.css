@@ -1,0 +1,152 @@
+/* activity 1 */
+
+/* .container{
+    width: 80%;
+    background-color: rgba(243, 176, 121, 0.573);
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    border: 3px dashed rgba(130, 89, 56, 0.404);
+    border-radius: 10px;
+}
+
+.container img{
+    width: 30%;
+    padding: 5px;
+    border: 3px solid rgba(130, 89, 56, 1);
+    border-radius: 50%;
+}
+
+.container h1{
+    color: rgba(63, 42, 27, 0.518);
+}
+
+.container .quote q{
+    color:whitesmoke;
+    background-color: rgba(130, 89, 56, 1);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.container #img-btn{
+    margin: 20px;
+    padding: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(63, 42, 27, 0.518);
+} */
+
+/* activity 2 */
+
+/* .container{
+    width: 200px;
+    padding: 10px;
+    background-color: aqua;
+    text-shadow: 2px 2px 6px rgb(0, 0, 0, 0.25);
+    text-align: center;
+    direction: ltr;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    text-indent: 20px;
+    line-height: 30px;
+    word-spacing: 6px;
+    word-break: break-word;
+    overflow: hidden;
+}
+
+.container a{
+    text-decoration: none;
+
+} */
+
+/* Task 7 */
+
+/* colors from "Color Hunt" */
+@font-face{
+    font-family: 'title-font';
+    src: url(../fonts/BebasNeue-Regular.ttf);
+    font-weight: 400px;
+}
+
+@font-face{
+    font-family: 'para-font';
+    src: url(../fonts/RobotoSlab-VariableFont_wght.ttf);
+    font-weight: 400px;
+}
+
+:root{
+    --primary-color: #1B3C53;
+    --secondary-color: #234C6A;
+    --third-color: #456882;
+    --fourth-color: #D2C1B6;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--secondary-color);
+}
+
+.container{
+    width: 80%;
+    margin: 46px auto;
+    padding: 20px;
+    background-color: var(--primary-color);
+    text-align: center;
+    border: 3px solid var(--third-color);
+    border-radius: 8px;
+    line-height: 1.6;
+    box-shadow: 0 10px 30px rgb(0, 0, 0, 1);
+}
+
+.container img{
+    width: 350px;
+    height: 350px;
+    padding: 5px;
+    border: 5px solid var(--third-color);
+    border-radius: 50%;
+    box-shadow: 0 10px 30px rgb(0, 0, 0, 0.5);
+}
+
+.container-2 {
+    font-family: 'title-font';
+    background-color: var(--third-color);
+    width: 500px;
+    padding: 15px 20px;
+    margin: 10px auto;
+    color: var(--fourth-color);
+    border: 3px solid var(--secondary-color);
+    border-radius: 3%;
+    box-shadow: 0 10px 30px rgb(0, 0, 0, 0.5);
+}
+
+.container .description{
+    font-family: 'para-font';
+    background-color: var(--third-color);
+    padding: 15px 20px;
+    color: var(--fourth-color);
+    border: 3px solid var(--secondary-color);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgb(0, 0, 0, 0.5);
+}
+
+.container #contact-btn {
+    margin: 20px;
+    padding: 10px 70px;
+    border: none;
+    border-radius: 5px;
+    color: var(--primary-color);
+    background-color: var(--fourth-color);
+    box-shadow: 0 10px 30px rgb(0, 0, 0, 1);
+}
+
+.container #contact-btn:hover{
+    cursor: pointer;
+    color: var(--fourth-color);
+    background-color: var(--third-color);
+}
