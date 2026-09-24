@@ -1,0 +1,96 @@
+/* Avtivity 1 */
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    text-align: center;
+    height: 100vh;
+    display: grid;
+
+    grid-template-areas: 
+    "header header header header"
+    "main main . sidebar"
+    "footer footer footer footer"
+    ;
+}
+
+.container .header{
+    background-color: orange;
+    grid-area: header;
+}
+
+.container .main{
+    background-color: lightblue;
+    grid-area: main;
+}
+
+.container .sidebar{
+    background-color: rgb(210, 95, 95);
+    grid-area: sidebar;
+}
+
+.container .footer{
+    background-color: lightgreen;
+    grid-area: footer;
+} */
+
+/* Metro Lay-out */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 70vh;
+    display:grid;
+    grid-template-columns: 1fr 1fr fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    grid-template-areas: 
+    "item1 item2 item2 item3"
+    "item4 item5 item6 item3";
+}
+
+.container .item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.container .item-1{
+    grid-area: item1;
+    background-color: lightblue;
+}
+
+.container .item-2{
+    grid-area: item2;
+    background-color: lightgreen;
+}
+
+.container .item-3{
+    grid-area: item3;
+    background-color: lightsalmon;
+}
+
+.container .item-4{
+    grid-area: item4;
+    background-color: teal;
+}
+
+.container .item-5{
+    grid-area: item5;
+    background-color: tomato;
+}
+
+.container .item-6{
+    grid-area: item6;
+    background-color: turquoise;
+}
