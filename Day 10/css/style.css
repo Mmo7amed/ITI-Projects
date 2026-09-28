@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Avtivity 1 */
+/* @media only screen and (max-width:768px){
+    .container{
+        background-color: lightsalmon;
+    }
+    .container img{
+        width: 30%;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:992px){
+    .container{
+        background-color: lightblue;
+    }
+    .container img{
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1200px){
+    .container{
+        background-color: lightgreen;
+    }
+    .container img{
+        width: 50%;
+    }
+} */
+
+/* Activity 2 */
+
+/* .container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .container-title{
+    width: 100%;
+    height: auto;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.container .container-content{
+    width: 100%;
+    padding: 10px;
+    background-color: tomato;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .container-content img{
+    width: 20%;
+    padding:5px;
+}
+
+@media only screen and (max-width:1200px) {
+    .container .container-content img{
+        flex: 0 0 25%
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .container .container-content img{
+        flex: 0 0 50%
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .container .container-content img{
+        flex: 0 0 100%
+    }
+} */
+
