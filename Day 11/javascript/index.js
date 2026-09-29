@@ -35,7 +35,7 @@ var playerTwoChoice = "Scissors";
 switch (true){
     case (playerOneChoice === playerTwoChoice):
         console.log("Tie!");
-        break
+        break;
         
     case (playerOneChoice === "Rock" && playerTwoChoice === "Scissors"):
         console.log("player 1 wins!");
