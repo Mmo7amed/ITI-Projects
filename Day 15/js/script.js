@@ -146,3 +146,32 @@
 
 // taskBtn.addEventListener("click", task);
 // displayContent();
+
+// Task 3
+const productName = document.querySelector(`#product-name`);
+const productPrice = document.querySelector(`#product-price`);
+const productCateg = document.querySelector(`#product-categ`);
+const productDesc = document.querySelector(`#product-description`);
+const productImage = document.querySelector(`#product-image`);
+const addBtn = document.querySelector(`#add-btn`);
+const searchInput = document.querySelector(`#search-input`);
+const tableBody = document.querySelector(`#table-body`);
+
+let productArr = [];
+let editProd = null;
+
+function displayProducts(arr){
+    let content = ``;
+}
+
+async function getProducts(){
+    try{
+        let response = await fetch(`https://dummyjson.com/docs/products`);
+        let data = response.json();
+
+    }catch(error){
+        console.error(error);
+    }
+}
+
+
