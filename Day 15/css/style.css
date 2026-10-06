@@ -17,7 +17,8 @@
     text-align: center;
 } */
 
-body{
+/* Task 2 */
+/* body{
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -26,4 +27,9 @@ body{
 
 .card{
     background-color: whitesmoke;
+} */
+
+/* Task 3 */
+.card{
+    background-color: rgb(141, 139, 139);
 }
